@@ -7,6 +7,19 @@ from .models import Author, BookInstance, Book, Genre,Language
 from django.views import generic
 
 
+class AuthorListView(generic.ListView):
+    model = Author
+    context_object_name = 'authors'
+    template_name = 'catalog/author_view.html'
+    paginate_by = 10
+
+
+class AuthorDetailView(generic.DetailView):
+    model = Author
+    context_object_name = 'author'
+    template_name = 'catalog/author-detail.html'
+
+
 class BookListView(generic.ListView):
     model = Book
     context_object_name = 'my_book_list'
