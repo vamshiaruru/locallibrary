@@ -4,7 +4,10 @@
     <h1>Author: {{ author.first_name }} {{ author.last_name }}</h1>
     {% for book in author.book_set.all %}
         <ul>
-            <li><a href="{{ book.get_absolute_url }}">{{ book.title }}</a></li>
+            <li><h4><a href="{{ book.get_absolute_url }}">
+                {{ book.title }}</a></h4>
+                <p>{{ book.summary }}</p>
+            </li>
         </ul>
     {% endfor %}
 {% endblock %}
