@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d6e94a4-497c-4edf-860e-a043355d47d4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/views.py" afterPath="$PROJECT_DIR$/catalog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/catalog/index.html" afterPath="$PROJECT_DIR$/templates/catalog/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/catalog/urls.py" afterPath="$PROJECT_DIR$/catalog/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locallibrary/settings.py" afterPath="$PROJECT_DIR$/locallibrary/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/locallibrary/urls.py" afterPath="$PROJECT_DIR$/locallibrary/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,8 +23,8 @@
       <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locallibrary/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+            <state relative-caret-position="442">
+              <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -50,8 +53,20 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/locallibrary/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="273">
+              <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <folding>
+                <element signature="e#646#687#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -82,8 +97,8 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="204">
+              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -91,24 +106,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/catalog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
+            <state relative-caret-position="765">
               <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="author_view.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/catalog/author_view.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -149,19 +154,20 @@
       <list>
         <option value="$PROJECT_DIR$/catalog/admin.py" />
         <option value="$PROJECT_DIR$/catalog/templates/index.html" />
-        <option value="$PROJECT_DIR$/locallibrary/settings.py" />
         <option value="$PROJECT_DIR$/templates/catalog/static/style.css" />
         <option value="$PROJECT_DIR$/catalog/static/style.css" />
-        <option value="$PROJECT_DIR$/locallibrary/urls.py" />
         <option value="$PROJECT_DIR$/templates/catalog/book_view.html" />
         <option value="$PROJECT_DIR$/templates/catalog/base_generic.html" />
-        <option value="$PROJECT_DIR$/catalog/urls.py" />
         <option value="$PROJECT_DIR$/templates/catalog/author_view.html" />
         <option value="$PROJECT_DIR$/catalog/models.py" />
         <option value="$PROJECT_DIR$/templates/catalog/book_detail.html" />
         <option value="$PROJECT_DIR$/templates/catalog/author-detail.html" />
         <option value="$PROJECT_DIR$/catalog/views.py" />
         <option value="$PROJECT_DIR$/templates/catalog/index.html" />
+        <option value="$PROJECT_DIR$/catalog/urls.py" />
+        <option value="$PROJECT_DIR$/locallibrary/urls.py" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/locallibrary/settings.py" />
       </list>
     </option>
   </component>
@@ -172,8 +178,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="709" />
-    <option name="y" value="63" />
+    <option name="x" value="743" />
+    <option name="y" value="31" />
     <option name="width" value="643" />
     <option name="height" value="567" />
   </component>
@@ -224,6 +230,12 @@
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="catalog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="locallibrary" type="b2602c69:ProjectViewProjectNode" />
+              <item name="locallibrary" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="registration" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -237,7 +249,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="SearchEverywhereHistoryKey" value="views&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/catalog/views.py&#10;ind&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/templates/catalog/index.html&#10;base&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/templates/catalog/base_generic.html&#10;urls&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/catalog/urls.py&#10;a&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/templates/catalog/base_generic.html&#10;v&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/catalog/views.py" />
+    <property name="SearchEverywhereHistoryKey" value="logi&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/templates/registration/login.html&#10;settin&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/locallibrary/settings.py&#10;urls&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/locallibrary/urls.py&#10;views&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/catalog/views.py&#10;ind&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/templates/catalog/index.html&#10;base&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/templates/catalog/base_generic.html&#10;a&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/templates/catalog/base_generic.html&#10;v&#9;FILE&#9;file:///home/vamshi/PycharmProjects/locallibrary/catalog/views.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -292,10 +304,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="709" y="63" width="643" height="567" extended-state="0" />
+    <frame x="743" y="31" width="643" height="567" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24430956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24369748" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -375,7 +387,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding />
+          <folding>
+            <element signature="e#646#687#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -435,29 +449,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="18" column="42" lean-forward="false" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/catalog/author_view.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -489,18 +485,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/locallibrary/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="57" column="30" lean-forward="false" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/catalog/base_generic.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-204">
           <caret line="19" column="48" lean-forward="false" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/catalog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="26" column="4" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="e#646#687#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locallibrary/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -513,13 +539,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/catalog/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="45" column="50" lean-forward="true" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-          <folding>
-            <element signature="e#24#63#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="425">
+          <caret line="25" column="55" lean-forward="false" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>

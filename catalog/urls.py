@@ -10,5 +10,5 @@ urlpatterns = [
         name='book-detail'),
     url(r'^authors/$', views.AuthorListView.as_view(), name='authors'),
     url(r'^authors/(?P<pk>\d+)$', views.AuthorDetailView.as_view(),
-        name='author-detail')
+        name='author-detail'),
 ]
