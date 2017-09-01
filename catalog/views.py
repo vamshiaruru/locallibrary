@@ -4,6 +4,18 @@ from __future__ import unicode_literals
 from django.http import HttpResponseRedirect, HttpResponse
 from django.shortcuts import render
 from .models import Author, BookInstance, Book, Genre,Language
+from django.views import generic
+
+
+class BookListView(generic.ListView):
+    model = Book
+    context_object_name = 'my_book_list'
+    template_name = 'catalog/book_view.html'
+
+
+class BookDetailView(generic.DetailView):
+    model = Book
+    template_name = 'catalog/book_detail.html'
 
 
 def index(request):
