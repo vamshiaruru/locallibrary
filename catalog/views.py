@@ -11,6 +11,7 @@ class BookListView(generic.ListView):
     model = Book
     context_object_name = 'my_book_list'
     template_name = 'catalog/book_view.html'
+    paginate_by = 10
 
 
 class BookDetailView(generic.DetailView):
